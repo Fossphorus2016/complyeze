@@ -9244,7 +9244,7 @@ fieldset:disabled .btn {
 }
 
 .bg-partner {
-  background-color: #facf15;
+  background-color: #fff;
   border: none;
   height: 365px;
   display: flex;
@@ -9253,6 +9253,31 @@ fieldset:disabled .btn {
   padding: 30px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   transition: all 0.3s ease-in-out;
+  border: 3px solid #facf15;
+}
+
+.bg-partner .card-header {
+  border-bottom: none;
+  padding: 10px 15px;
+  position: absolute;
+  top: -25px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: #facf15;
+  width: fit-content;
+  border-radius: 10px;
+  border: 2px solid #facf15;
+}
+
+.bg-partner.fp .card-header {
+  background: #df1f2c;
+  border: 2px solid #df1f2c;
+}
+
+.bg-partner.gcc .card-header {
+  background: #f7f7f7;
+  border: 2px solid #f7f7f7;
 }
 
 .bg-partner:hover {
@@ -9261,11 +9286,11 @@ fieldset:disabled .btn {
 }
 
 .bg-partner.fp {
-  background-color: #df1f2c;
+  background-color: #fff;  border: 3px solid #df1f2c;
 }
 
 .bg-partner.gcc {
-  background-color: #f7f7f7;
+  background-color: #fff; border: 3px solid #f7f7f7;
 }
 
 @media (min-width: 576px) {
