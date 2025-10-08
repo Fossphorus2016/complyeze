@@ -9276,8 +9276,8 @@ fieldset:disabled .btn {
 }
 
 .bg-partner.gcc .card-header {
-  background: #f7f7f7;
-  border: 2px solid #f7f7f7;
+  background: #134169;
+  border: 2px solid #134169;
 }
 
 .bg-partner:hover {
@@ -9290,7 +9290,7 @@ fieldset:disabled .btn {
 }
 
 .bg-partner.gcc {
-  background-color: #fff; border: 3px solid #f7f7f7;
+  background-color: #fff; border: 3px solid #134169;
 }
 
 @media (min-width: 576px) {
